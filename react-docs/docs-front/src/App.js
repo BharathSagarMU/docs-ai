@@ -5,6 +5,7 @@ import { Suspense } from 'react';
 
 function App() {
 
+  console.log('testing node_module file ')
   return (
   <div className="App"    style={{height:'100vh'}}>
       <Navbar/>
