@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  padding: 80px 20px 20px 20px;
+  background: linear-gradient(to right, #e4edfa, #f0f5ff);; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .App-logo {
@@ -36,3 +38,36 @@
     transform: rotate(360deg);
   }
 }
+
+.d-flex-r{
+  display: flex;
+  flex-direction: row;
+}
+.d-flex-c{
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar{
+  position: absolute;
+  width: 100%;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(0deg, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/* background: linear-gradient(180deg, #c9d6ff, #e2e2e2); */
+  
+}
+.navbar>ul{
+  list-style: none;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    margin: 0px;
+    padding: 15px;
+    font-weight: bold;
+}
+.navbar>ul>li{
+  cursor: pointer;
+}
+
