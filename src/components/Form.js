@@ -17,7 +17,7 @@ const Form = ({formType=null})=>{
         }
     },[])
  
-    console.log('this is git check console')
+    console.log('this is git check console second')
    const handleSubmit = ()=>{
        if (formType === 'login'){
         console.log("this is login fetch",username)
