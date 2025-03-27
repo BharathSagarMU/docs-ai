@@ -16,7 +16,8 @@ const Form = ({formType=null})=>{
             console.log('component is unmounting')
         }
     },[])
-
+ 
+    console.log('this is git check console')
    const handleSubmit = ()=>{
        if (formType === 'login'){
         console.log("this is login fetch",username)
