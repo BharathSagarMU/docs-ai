@@ -5,7 +5,6 @@ import { Suspense } from 'react';
 
 function App() {
 
-  console.log("changes are not appearing")
   return (
   <div className="App"    style={{height:'100vh'}}>
       <Navbar/>
